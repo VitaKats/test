@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(174, 0, 255);
+}
+
+
+.class{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(autofit,minmax(300px,1fr));
+    grid-template-rows:repeat(autofit,minmax(300px,1fr));
+    grid-template-areas:
+    "card1 card2 card3 card4"
+    "card1 card5 card5 card4"
+    "card6 card5 card5 card7"
+    "card8 card8 card9 card7";
+     gap:10px;
+}
+
+.box{
+    background-color: white;
+    text-align: center;
+    gap: 0;
+}
